@@ -1,0 +1,985 @@
+###############################################################################
+#
+# IAR ELF Linker V9.40.1.364/W64 for ARM                  20/Aug/2025  15:51:53
+# Copyright 2007-2023 IAR Systems AB.
+#
+#    Output file  =
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out
+#    Map file     =
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\List\iap_ymodem_boot.map
+#    Command line =
+#        -f
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out.rsp
+#        (E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\4G_EC200U_1604294460200205261.dir\4G_EC200U.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir\com.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir\Display.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir\flash.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir\Font.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_aos.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_clk.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_dma.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_efm.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_fcg.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_gpio.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_icg.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_interrupts.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_pwc.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_spi.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_sram.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_tmr0.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_usart.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir\hc32_ll_utility.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir\main.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir\OLED.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\cmsis_10847856019631765829.dir\startup_hc32f460.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\cmsis_10847856019631765829.dir\system_hc32f460.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\W25Q128_15929202798972533116.dir\W25Q128.o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\ymodem_18394090990685934474.dir\ymodem.o
+#        --no_out_extension -o
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out
+#        --config_def "_LINK_FLASH_= 0" --config_def "_HC32F460_512K_= 1" --map
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\List\iap_ymodem_boot.map
+#        --config
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\config\linker\HC32F460.icf
+#        --semihosting --entry __iar_program_start --redirect
+#        __write=__write_buffered --vfe --text_out locale --cpu=Cortex-M4
+#        --fpu=None) --dependencies=n
+#        E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out.iar_deps
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x1'3fff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P3":  place in [from 0x1fff'8000 to 0x2002'6fff] |
+                [from 0x200f'0000 to 0x200f'0fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .otp_data  in "P2"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x280
+  .intvec            ro code          0x0   0x280  startup_hc32f460.o [3]
+                                  - 0x280   0x280
+
+"P1", part 1 of 2:                          0x150
+  .text              ro code        0x280    0x68  memcmp.o [9]
+  .rodata            const          0x2e8    0x44  4G_EC200U.o [1]
+  Initializer bytes  const          0x32c    0xa4  <for P3 s0>
+                                  - 0x3d0   0x150
+
+Absolute sections:                           0x20
+  .rodata            const          0x400    0x20  hc32_ll_icg.o [4]
+                                  - 0x420    0x20
+
+"P1", part 2 of 2:                         0xba64
+  .text              ro code        0x420  0x16a8  4G_EC200U.o [1]
+  .text              ro code       0x1ac8   0x508  hc32_ll_gpio.o [4]
+  .text              ro code       0x1fd0    0x44  hc32_ll_utility.o [4]
+  .text              ro code       0x2014    0x66  ABImemset.o [9]
+  .text              ro code       0x207a    0x2a  copy_init3.o [9]
+  .text              ro code       0x20a4    0x28  sscanf.o [7]
+  .text              ro code       0x20cc    0xe0  mktime64.o [7]
+  .text              ro code       0x21ac    0x40  sprintf.o [7]
+  .text              ro code       0x21ec    0x36  strlen.o [9]
+  .text              ro code       0x2222    0x1e  xsscin.o [7]
+  .text              ro code       0x2240    0xa6  ABImemcpy.o [9]
+  .text              ro code       0x22e6     0xa  xsprout.o [7]
+  .text              ro code       0x22f0    0x18  strcpy.o [9]
+  .text              ro code       0x2308   0x418  main.o [5]
+  .text              ro code       0x2720   0x45c  com.o [5]
+  .text              ro code       0x2b7c    0xf0  hc32_ll_utility.o [4]
+  .text              ro code       0x2c6c   0x156  iar_Stoulx.o [7]
+  .rodata            const         0x2dc2     0x2  xlocale_c.o [7]
+  .text              ro code       0x2dc4    0x16  strchr.o [9]
+  .text              ro code       0x2dda    0x2c  strstr.o [7]
+  .rodata            const         0x2e06     0x2  xlocale_c.o [7]
+  .text              ro code       0x2e08    0x84  flash.o [5]
+  .text              ro code       0x2e8c   0x18e  Display.o [5]
+  .text              ro code       0x301a     0x2  hc32_ll_utility.o [4]
+  .text              ro code       0x301c     0xc  hc32_ll_utility.o [4]
+  .text              ro code       0x3028   0x640  xscanfsmall_nomb.o [7]
+  .text              ro code       0x3668    0xcc  xDaysTo64.o [7]
+  .text              ro code       0x3734   0x15c  xttotm64.o [7]
+  .text              ro code       0x3890     0x4  xTzoff_nop.o [7]
+  .text              ro code       0x3894   0xd1a  xprintflarge_nomb.o [7]
+  .rodata            const         0x45ae     0x1  xlocale_c.o [7]
+  .text              ro code       0x45b0    0x18  hc32_ll_utility.o [4]
+  .text              ro code       0x45c8   0x9b8  hc32_ll_clk.o [4]
+  .text              ro code       0x4f80    0xb8  hc32_ll_sram.o [4]
+  .text              ro code       0x5038   0x430  hc32_ll_efm.o [4]
+  .text              ro code       0x5468    0x80  hc32_ll_pwc.o [4]
+  .text              ro code       0x54e8   0x10c  hc32_ll.o [4]
+  .text              ro code       0x55f4    0x50  hc32_ll_utility.o [4]
+  .text              ro code       0x5644   0x250  W25Q128.o [2]
+  .text              ro code       0x5894   0xca4  OLED.o [5]
+  .text              ro code       0x6538   0xd48  hc32_ll_usart.o [4]
+  .text              ro code       0x7280   0x68c  hc32_ll_dma.o [4]
+  .text              ro code       0x790c   0x120  hc32_ll_fcg.o [4]
+  .text              ro code       0x7a2c    0x3c  hc32_ll_aos.o [4]
+  .text              ro code       0x7a68   0x8e8  hc32_ll_interrupts.o [4]
+  .text              ro code       0x8350   0x208  hc32_ll_tmr0.o [4]
+  .text              ro code       0x8558    0x14  isspace.o [7]
+  .text              ro code       0x856c    0x14  tolower.o [7]
+  .text              ro code       0x8580    0x58  memchr.o [9]
+  .text              ro code       0x85d8    0x1a  U32ToFlt.o [8]
+  .text              ro code       0x85f4   0x118  FltDiv.o [8]
+  .text              ro code       0x870c    0x48  FltToDbl.o [8]
+  .text              ro code       0x8754   0x1aa  DblMul.o [8]
+  .text              ro code       0x8900    0x36  DblToS32.o [8]
+  .text              ro code       0x8936    0x90  iar_Stolx.o [7]
+  .text              ro code       0x89c8    0x40  xfail_s.o [7]
+  .text              ro code       0x8a08   0x274  I64DivMod.o [9]
+  .text              ro code       0x8c7c     0x6  xisdst_nop64.o [7]
+  .text              ro code       0x8c84    0x70  frexp.o [8]
+  .text              ro code       0x8cf4   0x246  DblDiv.o [8]
+  .text              ro code       0x8f3c    0x22  DblToU32.o [8]
+  .text              ro code       0x8f60    0x1c  U32ToDbl.o [8]
+  .text              ro code       0x8f7c   0x24e  DblAddSub.o [8]
+  .text              ro code       0x91cc    0x3c  xlocale_c.o [7]
+  .text              ro code       0x9208    0xe0  system_hc32f460.o [3]
+  .text              ro code       0x92e8   0x856  hc32_ll_spi.o [4]
+  .text              ro code       0x9b40    0x46  U64ToDbl.o [8]
+  .text              ro code       0x9b88    0x68  DblToFlt.o [8]
+  .text              ro code       0x9bf0   0x162  FltAddSub.o [8]
+  .text              ro code       0x9d52     0x6  abort.o [7]
+  .text              ro code       0x9d58     0x2  I64DivZer.o [9]
+  .text              ro code       0x9d5c    0x14  exit.o [10]
+  .rodata            const         0x9d70   0x7e4  Font.o [5]
+  .rodata            const         0xa554   0x528  Font.o [5]
+  .rodata            const         0xaa7c   0x4c8  Font.o [5]
+  .rodata            const         0xaf44   0x400  Font.o [5]
+  .rodata            const         0xb344    0x98  W25Q128.o [2]
+  .rodata            const         0xb3dc    0x5c  4G_EC200U.o [1]
+  .rodata            const         0xb438    0x58  hc32_ll_interrupts.o [4]
+  .rodata            const         0xb490    0x54  hc32_ll_aos.o [4]
+  .rodata            const         0xb4e4    0x54  hc32_ll_clk.o [4]
+  .rodata            const         0xb538    0x54  hc32_ll_dma.o [4]
+  .rodata            const         0xb58c    0x54  hc32_ll_efm.o [4]
+  .rodata            const         0xb5e0    0x54  hc32_ll_fcg.o [4]
+  .rodata            const         0xb634    0x54  hc32_ll_gpio.o [4]
+  .rodata            const         0xb688    0x54  hc32_ll_pwc.o [4]
+  .rodata            const         0xb6dc    0x54  hc32_ll_spi.o [4]
+  .rodata            const         0xb730    0x54  hc32_ll_sram.o [4]
+  .rodata            const         0xb784    0x54  hc32_ll_tmr0.o [4]
+  .rodata            const         0xb7d8    0x54  hc32_ll_usart.o [4]
+  .rodata            const         0xb82c    0x50  iar_Stoulx.o [7]
+  .text              ro code       0xb87c    0x50  startup_hc32f460.o [3]
+  .rodata            const         0xb8cc    0x40  4G_EC200U.o [1]
+  .rodata            const         0xb90c    0x40  4G_EC200U.o [1]
+  .rodata            const         0xb94c    0x3c  4G_EC200U.o [1]
+  .rodata            const         0xb988    0x38  4G_EC200U.o [1]
+  .text              ro code       0xb9c0    0x38  zero_init3.o [9]
+  .rodata            const         0xb9f8    0x28  4G_EC200U.o [1]
+  .text              ro code       0xba20    0x28  data_init.o [9]
+  .rodata            const         0xba48    0x24  4G_EC200U.o [1]
+  .rodata            const         0xba6c    0x24  4G_EC200U.o [1]
+  .rodata            const         0xba90    0x24  xscanfsmall_nomb.o [7]
+  .iar.init_table    const         0xbab4    0x24  - Linker created -
+  .rodata            const         0xbad8    0x20  4G_EC200U.o [1]
+  .rodata            const         0xbaf8    0x20  4G_EC200U.o [1]
+  .rodata            const         0xbb18    0x20  4G_EC200U.o [1]
+  .rodata            const         0xbb38    0x20  4G_EC200U.o [1]
+  .text              ro code       0xbb58    0x1e  cmain.o [9]
+  .text              ro code       0xbb76     0x4  low_level_init.o [7]
+  .text              ro code       0xbb7a     0x4  exit.o [7]
+  .text              ro code       0xbb80     0xa  cexit.o [9]
+  .rodata            const         0xbb8c    0x1c  4G_EC200U.o [1]
+  .rodata            const         0xbba8    0x1c  4G_EC200U.o [1]
+  .text              ro code       0xbbc4    0x1c  cstartup_M.o [9]
+  .rodata            const         0xbbe0    0x18  4G_EC200U.o [1]
+  .rodata            const         0xbbf8    0x18  4G_EC200U.o [1]
+  .rodata            const         0xbc10    0x18  4G_EC200U.o [1]
+  .rodata            const         0xbc28    0x18  main.o [5]
+  .rodata            const         0xbc40    0x14  4G_EC200U.o [1]
+  .rodata            const         0xbc54    0x14  4G_EC200U.o [1]
+  .rodata            const         0xbc68    0x14  4G_EC200U.o [1]
+  .rodata            const         0xbc7c    0x14  4G_EC200U.o [1]
+  .rodata            const         0xbc90    0x14  4G_EC200U.o [1]
+  .rodata            const         0xbca4    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbcb4    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbcc4    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbcd4    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbce4    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbcf4    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbd04    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbd14    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbd24    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbd34    0x10  4G_EC200U.o [1]
+  .rodata            const         0xbd44    0x10  hc32_ll_usart.o [4]
+  .rodata            const         0xbd54     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbd60     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbd6c     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbd78     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbd84     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbd90     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbd9c     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbda8     0xc  4G_EC200U.o [1]
+  .rodata            const         0xbdb4     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdbc     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdc4     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdcc     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdd4     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbddc     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbde4     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdec     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdf4     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbdfc     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbe04     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbe0c     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbe14     0x8  4G_EC200U.o [1]
+  .rodata            const         0xbe1c     0x8  4G_EC200U.o [1]
+  .text              ro code       0xbe24     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe28     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe2c     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe30     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe34     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe38     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe3c     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe40     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe44     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe48     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe4c     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe50     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe54     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe58     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe5c     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe60     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe64     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe68     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe6c     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe70     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe74     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe78     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe7c     0x4  startup_hc32f460.o [3]
+  .text              ro code       0xbe80     0x4  startup_hc32f460.o [3]
+  .rodata            const         0xbe84     0x0  zero_init3.o [9]
+  .rodata            const         0xbe84     0x0  copy_init3.o [9]
+                                 - 0xbe84  0xba64
+
+"P3", part 1 of 3:                           0xa4
+  P3 s0                       0x1fff'8000    0xa4  <Init block>
+    .data            inited   0x1fff'8000    0x48  xlocale_c.o [7]
+    .data            inited   0x1fff'8048    0x38  xlocale_c.o [7]
+    .data            inited   0x1fff'8080    0x1c  W25Q128.o [2]
+    .data            inited   0x1fff'809c     0x4  main.o [5]
+    .data            inited   0x1fff'80a0     0x1  4G_EC200U.o [1]
+                            - 0x1fff'80a4    0xa4
+
+"P3", part 2 of 3:                          0xdb0
+  .bss               zero     0x1fff'80a4   0x41c  com.o [5]
+  .bss               zero     0x1fff'84c0   0x400  OLED.o [5]
+  .bss               zero     0x1fff'88c0   0x200  hc32_ll_interrupts.o [4]
+  .bss               zero     0x1fff'8ac0   0x12c  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8bec   0x108  W25Q128.o [2]
+  .bss               zero     0x1fff'8cf4    0xc8  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8dbc    0x2c  xttotm64.o [7]
+  .bss               zero     0x1fff'8de8    0x20  com.o [5]
+  .bss               zero     0x1fff'8e08    0x14  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8e1c    0x10  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8e2c     0x4  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8e30     0x4  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8e34     0x4  hc32_ll_utility.o [4]
+  .bss               zero     0x1fff'8e38     0x4  hc32_ll_utility.o [4]
+  .bss               zero     0x1fff'8e3c     0x4  main.o [5]
+  .bss               zero     0x1fff'8e40     0x4  main.o [5]
+  .bss               zero     0x1fff'8e44     0x4  main.o [5]
+  .bss               zero     0x1fff'8e48     0x4  xfail_s.o [7]
+  .bss               zero     0x1fff'8e4c     0x2  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8e4e     0x2  com.o [5]
+  .bss               zero     0x1fff'8e50     0x1  4G_EC200U.o [1]
+  .bss               zero     0x1fff'8e51     0x1  com.o [5]
+  .bss               zero     0x1fff'8e52     0x1  com.o [5]
+  .bss               zero     0x1fff'8e53     0x1  hc32_ll_dma.o [4]
+                            - 0x1fff'8e54   0xdb0
+
+"P3", part 3 of 3:                         0x200c
+  .noinit            uninit   0x1fff'8e54     0x4  system_hc32f460.o [3]
+  .noinit            uninit   0x1fff'8e58     0x4  system_hc32f460.o [3]
+  CSTACK                      0x1fff'8e60  0x2000  <Block>
+    CSTACK           uninit   0x1fff'8e60  0x2000  <Block tail>
+                            - 0x1fff'ae60  0x200c
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x3d0        0x3ff      0x30
+       0xbe84     0x1'3fff    0x817c
+  0x1fff'ae60  0x2002'6fff  0x2'c1a0
+  0x200f'0000  0x200f'0fff    0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xdb0:
+          0x1fff'80a4  0xdb0
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xa4 (101% of destination):
+                0x32c   0xa4
+    1 destination range, total size 0xa1:
+          0x1fff'8000   0xa1
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data  ro data
+                                                      (abs)
+    ------                -------  -------  -------  -------
+command line/config:
+    --------------------------------------------------------
+    Total:
+
+E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\4G_EC200U_1604294460200205261.dir: [1]
+    4G_EC200U.o             5'800    1'241      548
+    --------------------------------------------------------
+    Total:                  5'800    1'241      548
+
+E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\W25Q128_15929202798972533116.dir: [2]
+    W25Q128.o                 592      180      292
+    --------------------------------------------------------
+    Total:                    592      180      292
+
+E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\cmsis_10847856019631765829.dir: [3]
+    startup_hc32f460.o        816
+    system_hc32f460.o         224                 8
+    --------------------------------------------------------
+    Total:                  1'040                 8
+
+E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir: [4]
+    hc32_ll.o                 268
+    hc32_ll_aos.o              60       84
+    hc32_ll_clk.o           2'488       84
+    hc32_ll_dma.o           1'676       84        1
+    hc32_ll_efm.o           1'072       84
+    hc32_ll_fcg.o             288       84
+    hc32_ll_gpio.o          1'288       84
+    hc32_ll_icg.o                                         32
+    hc32_ll_interrupts.o    2'280       88      512
+    hc32_ll_pwc.o             128       84
+    hc32_ll_spi.o           2'134       84
+    hc32_ll_sram.o            184       84
+    hc32_ll_tmr0.o            520       84
+    hc32_ll_usart.o         3'400      100
+    hc32_ll_utility.o         426                 8
+    --------------------------------------------------------
+    Total:                 16'212    1'028      521       32
+
+E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir: [5]
+    Display.o                 398
+    Font.o                           5'588
+    OLED.o                  3'236             1'024
+    com.o                   1'116             1'088
+    flash.o                   132
+    main.o                  1'048       28       16
+    --------------------------------------------------------
+    Total:                  5'930    5'616    2'128
+
+E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\ymodem_18394090990685934474.dir: [6]
+    --------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [7]
+    abort.o                     6
+    exit.o                      4
+    iar_Stolx.o               144
+    iar_Stoulx.o              342       80
+    isspace.o                  20
+    low_level_init.o            4
+    mktime64.o                224
+    sprintf.o                  64
+    sscanf.o                   40
+    strstr.o                   44
+    tolower.o                  20
+    xDaysTo64.o               204
+    xTzoff_nop.o                4
+    xfail_s.o                  64                 4
+    xisdst_nop64.o              6
+    xlocale_c.o                60      133      128
+    xprintflarge_nomb.o     3'354
+    xscanfsmall_nomb.o      1'600       36
+    xsprout.o                  10
+    xsscin.o                   30
+    xttotm64.o                348                44
+    --------------------------------------------------------
+    Total:                  6'592      249      176
+
+m7M_tl.a: [8]
+    DblAddSub.o               590
+    DblDiv.o                  582
+    DblMul.o                  426
+    DblToFlt.o                104
+    DblToS32.o                 54
+    DblToU32.o                 34
+    FltAddSub.o               354
+    FltDiv.o                  280
+    FltToDbl.o                 72
+    U32ToDbl.o                 28
+    U32ToFlt.o                 26
+    U64ToDbl.o                 70
+    frexp.o                   112
+    --------------------------------------------------------
+    Total:                  2'732
+
+rt7M_tl.a: [9]
+    ABImemcpy.o               166
+    ABImemset.o               102
+    I64DivMod.o               628
+    I64DivZer.o                 2
+    cexit.o                    10
+    cmain.o                    30
+    copy_init3.o               42
+    cstartup_M.o               28
+    data_init.o                40
+    memchr.o                   88
+    memcmp.o                  104
+    strchr.o                   22
+    strcpy.o                   24
+    strlen.o                   54
+    zero_init3.o               56
+    --------------------------------------------------------
+    Total:                  1'396
+
+shb_l.a: [10]
+    exit.o                     20
+    --------------------------------------------------------
+    Total:                     20
+
+    Gaps                       23        2
+    Linker created                      39    8'192
+------------------------------------------------------------
+    Grand Total:           40'337    8'355   11'865       32
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0xbab4          --   Gb  - Linker created -
+.iar.init_table$$Limit       0xbad8          --   Gb  - Linker created -
+?main                        0xbb59         Code  Gb  cmain.o [9]
+AOS_SW_Trigger               0x27b9    0xa  Code  Lc  com.o [5]
+AOS_SetTriggerEventSrc       0x7a2d   0x2e  Code  Gb  hc32_ll_aos.o [4]
+BSP_SPI_Active               0x5727    0xc  Code  Lc  W25Q128.o [2]
+BSP_SPI_DeInit               0x5811    0xa  Code  Lc  W25Q128.o [2]
+BSP_SPI_Inactive             0x5733    0xc  Code  Lc  W25Q128.o [2]
+BSP_SPI_Init                 0x573f   0xd2  Code  Lc  W25Q128.o [2]
+BSP_SPI_Receive              0x582f   0x14  Code  Lc  W25Q128.o [2]
+BSP_SPI_Trans                0x581b   0x14  Code  Lc  W25Q128.o [2]
+BSP_W25QXX_DeInit            0x584d    0xa  Code  Gb  W25Q128.o [2]
+BSP_W25QXX_Init              0x5843    0xa  Code  Gb  W25Q128.o [2]
+BSP_W25QXX_Read              0x5857   0x28  Code  Gb  W25Q128.o [2]
+BusFault_Handler             0xbe31         Code  Wk  startup_hc32f460.o [3]
+CLK_GetStableStatus          0x4edd   0x3a  Code  Gb  hc32_ll_clk.o [4]
+CLK_PLLCmd                   0x4e35   0xa2  Code  Gb  hc32_ll_clk.o [4]
+CLK_PLLInit                  0x4c1f  0x212  Code  Gb  hc32_ll_clk.o [4]
+CLK_PLLStructInit            0x4bc1   0x5e  Code  Gb  hc32_ll_clk.o [4]
+CLK_SetClockDiv              0x4f3d   0x14  Code  Gb  hc32_ll_clk.o [4]
+CLK_SetSysClockSrc           0x4f1d   0x12  Code  Gb  hc32_ll_clk.o [4]
+CLK_WaitStable               0x45c9   0x32  Code  Lc  hc32_ll_clk.o [4]
+CLK_XtalCmd                  0x4af7   0x9c  Code  Gb  hc32_ll_clk.o [4]
+CLK_XtalInit                 0x4a03   0xf4  Code  Gb  hc32_ll_clk.o [4]
+CLK_XtalStructInit           0x49dd   0x26  Code  Gb  hc32_ll_clk.o [4]
+COM_DeInit                   0x2a0d   0x3a  Code  Gb  com.o [5]
+COM_Init                     0x2a47   0xc8  Code  Gb  com.o [5]
+COM_SendData                 0x2b0f   0x1e  Code  Gb  com.o [5]
+CSTACK$$Base            0x1fff'8e60          --   Gb  - Linker created -
+CSTACK$$Limit           0x1fff'ae60          --   Gb  - Linker created -
+ClockSync_CalculateBrr       0x6819  0x1d6  Code  Lc  hc32_ll_usart.o [4]
+DDL_AssertHandler            0x301b    0x2  Code  Wk  hc32_ll_utility.o [4]
+DDL_DelayMS                  0x2bd9   0x3a  Code  Gb  hc32_ll_utility.o [4]
+DDL_DelayUS                  0x2c13   0x36  Code  Gb  hc32_ll_utility.o [4]
+DMA_ChCmd                    0x7375  0x1ce  Code  Gb  hc32_ll_dma.o [4]
+DMA_ChCmd::u8DmaChEnState
+                        0x1fff'8e53    0x1  Data  Lc  hc32_ll_dma.o [4]
+DMA_ClearTransCompleteStatus
+                             0x7335   0x40  Code  Gb  hc32_ll_dma.o [4]
+DMA_Cmd                      0x7281   0x42  Code  Gb  hc32_ll_dma.o [4]
+DMA_Config                   0x27f7  0x116  Code  Lc  com.o [5]
+DMA_Config::stcLlpDesc  0x1fff'8de8   0x20  Data  Lc  com.o [5]
+DMA_GetTransCount            0x78b9   0x3e  Code  Gb  hc32_ll_dma.o [4]
+DMA_Init                     0x7583  0x174  Code  Gb  hc32_ll_dma.o [4]
+DMA_LlpInit                  0x771f   0xca  Code  Gb  hc32_ll_dma.o [4]
+DMA_LlpStructInit            0x7701   0x1e  Code  Gb  hc32_ll_dma.o [4]
+DMA_ReconfigCmd              0x77e9   0x5a  Code  Gb  hc32_ll_dma.o [4]
+DMA_ReconfigLlpCmd           0x7843   0x76  Code  Gb  hc32_ll_dma.o [4]
+DMA_StructInit               0x7551   0x32  Code  Gb  hc32_ll_dma.o [4]
+DMA_TransCompleteIntCmd
+                             0x72c3   0x72  Code  Gb  hc32_ll_dma.o [4]
+DebugMon_Handler             0xbe3d         Code  Wk  startup_hc32f460.o [3]
+EC200U_4G_Module_Configuration_Init
+                              0x689  0x62c  Code  Gb  4G_EC200U.o [1]
+EC200U_4G_Module_GPIO_Init
+                              0x47f   0x4e  Code  Gb  4G_EC200U.o [1]
+EC200U_4G_Module_Init         0xcb9   0xe8  Code  Gb  4G_EC200U.o [1]
+EFM_ClearStatus              0x514f   0x3a  Code  Gb  hc32_ll_efm.o [4]
+EFM_FWMC_Cmd                 0x53fd   0x2a  Code  Gb  hc32_ll_efm.o [4]
+EFM_GetStatus                0x511d   0x32  Code  Gb  hc32_ll_efm.o [4]
+EFM_Program                  0x5189  0x1bc  Code  Gb  hc32_ll_efm.o [4]
+EFM_REG_Lock                 0x54f9    0x8  Code  Lc  hc32_ll.o [4]
+EFM_REG_Unlock               0x54e9   0x10  Code  Lc  hc32_ll.o [4]
+EFM_SectorErase              0x5349   0xb4  Code  Gb  hc32_ll_efm.o [4]
+EFM_SetWaitCycle             0x50ab   0x72  Code  Gb  hc32_ll_efm.o [4]
+EFM_WaitEnd                  0x5065   0x46  Code  Lc  hc32_ll_efm.o [4]
+EFM_WaitFlag                 0x5039   0x2c  Code  Lc  hc32_ll_efm.o [4]
+FCG_Fcg0PeriphClockCmd       0x790d   0x60  Code  Gb  hc32_ll_fcg.o [4]
+FCG_Fcg1PeriphClockCmd       0x796d   0x50  Code  Gb  hc32_ll_fcg.o [4]
+FCG_Fcg2PeriphClockCmd       0x79bd   0x50  Code  Gb  hc32_ll_fcg.o [4]
+FLASH_EraseSector            0x2e09   0x48  Code  Gb  flash.o [5]
+FLASH_WriteData              0x2e51   0x36  Code  Gb  flash.o [5]
+GPIO_AnalogCmd               0x1ef9   0xbc  Code  Gb  hc32_ll_gpio.o [4]
+GPIO_Init                    0x1ac9  0x1e8  Code  Gb  hc32_ll_gpio.o [4]
+GPIO_REG_Lock                0x5501    0xa  Code  Lc  hc32_ll.o [4]
+GPIO_REG_Unlock              0x550b    0xa  Code  Lc  hc32_ll.o [4]
+GPIO_ResetPins               0x1e8d   0x6c  Code  Gb  hc32_ll_gpio.o [4]
+GPIO_SetFunc                 0x1ce7   0xd8  Code  Gb  hc32_ll_gpio.o [4]
+GPIO_SetPins                 0x1e1f   0x6e  Code  Gb  hc32_ll_gpio.o [4]
+GPIO_SetReadWaitCycle        0x1dbf   0x60  Code  Gb  hc32_ll_gpio.o [4]
+GPIO_StructInit              0x1cb1   0x36  Code  Gb  hc32_ll_gpio.o [4]
+HRC_VALUE               0x1fff'8e58    0x4  Data  Gb  system_hc32f460.o [3]
+HardFault_Handler            0xbe29         Code  Wk  startup_hc32f460.o [3]
+IAP_CLK_DeInit               0x2411   0x42  Code  Gb  main.o [5]
+IAP_CLK_Init                 0x234d   0xc4  Code  Gb  main.o [5]
+IAP_CheckApp                 0x24cf    0x2  Code  Gb  main.o [5]
+IAP_JumpToApp                0x24a1   0x2e  Code  Gb  main.o [5]
+IAP_PeriphDeinit             0x2477   0x28  Code  Gb  main.o [5]
+IAP_PeriphInit               0x2453   0x24  Code  Gb  main.o [5]
+IAP_SendString               0x249f    0x2  Code  Gb  main.o [5]
+INTC_IrqSignIn               0x7a69   0xb8  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ000_Handler               0x7b21   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ001_Handler               0x7b31   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ002_Handler               0x7b41   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ003_Handler               0x7b51   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ004_Handler               0x7b61   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ005_Handler               0x7b71   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ006_Handler               0x7b81   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ007_Handler               0x7b91   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ008_Handler               0x7ba1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ009_Handler               0x7bb1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ010_Handler               0x7bc1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ011_Handler               0x7bd1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ012_Handler               0x7be1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ013_Handler               0x7bf1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ014_Handler               0x7c01   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ015_Handler               0x7c11   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ016_Handler               0x7c21   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ017_Handler               0x7c31   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ018_Handler               0x7c41   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ019_Handler               0x7c51   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ020_Handler               0x7c61   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ021_Handler               0x7c71   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ022_Handler               0x7c81   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ023_Handler               0x7c91   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ024_Handler               0x7ca1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ025_Handler               0x7cb1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ026_Handler               0x7cc1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ027_Handler               0x7cd1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ028_Handler               0x7ce1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ029_Handler               0x7cf1   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ030_Handler               0x7d01   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ031_Handler               0x7d11   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ032_Handler               0x7d21   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ033_Handler               0x7d33   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ034_Handler               0x7d45   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ035_Handler               0x7d57   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ036_Handler               0x7d69   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ037_Handler               0x7d7b   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ038_Handler               0x7d8d   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ039_Handler               0x7d9f   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ040_Handler               0x7db1   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ041_Handler               0x7dc3   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ042_Handler               0x7dd5   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ043_Handler               0x7de7   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ044_Handler               0x7df9   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ045_Handler               0x7e0b   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ046_Handler               0x7e1d   0x12  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ047_Handler               0x7e2f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ048_Handler               0x7e3f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ049_Handler               0x7e4f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ050_Handler               0x7e5f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ051_Handler               0x7e6f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ052_Handler               0x7e7f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ053_Handler               0x7e8f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ054_Handler               0x7e9f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ055_Handler               0x7eaf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ056_Handler               0x7ebf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ057_Handler               0x7ecf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ058_Handler               0x7edf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ059_Handler               0x7eef   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ060_Handler               0x7eff   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ061_Handler               0x7f0f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ062_Handler               0x7f1f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ063_Handler               0x7f2f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ064_Handler               0x7f3f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ065_Handler               0x7f4f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ066_Handler               0x7f5f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ067_Handler               0x7f6f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ068_Handler               0x7f7f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ069_Handler               0x7f8f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ070_Handler               0x7f9f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ071_Handler               0x7faf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ072_Handler               0x7fbf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ073_Handler               0x7fcf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ074_Handler               0x7fdf   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ075_Handler               0x7fef   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ076_Handler               0x7fff   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ077_Handler               0x800f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ078_Handler               0x801f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ079_Handler               0x802f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ080_Handler               0x803f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ081_Handler               0x804f   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ082_Handler               0x8061   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ083_Handler               0x8071   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ084_Handler               0x8081   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ085_Handler               0x8091   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ086_Handler               0x80a5   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ087_Handler               0x80b5   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ088_Handler               0x80c5   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ089_Handler               0x80d9   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ090_Handler               0x80e9   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ091_Handler               0x80f9   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ092_Handler               0x8109   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ093_Handler               0x8119   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ094_Handler               0x8129   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ095_Handler               0x8139   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ096_Handler               0x814d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ097_Handler               0x815d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ098_Handler               0x816d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ099_Handler               0x817d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ100_Handler               0x818d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ101_Handler               0x819d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ102_Handler               0x81ad   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ103_Handler               0x81bd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ104_Handler               0x81cd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ105_Handler               0x81dd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ106_Handler               0x81ed   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ107_Handler               0x81fd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ108_Handler               0x820d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ109_Handler               0x821d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ110_Handler               0x822d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ111_Handler               0x823d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ112_Handler               0x824d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ113_Handler               0x825d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ114_Handler               0x826d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ115_Handler               0x827d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ116_Handler               0x828d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ117_Handler               0x829d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ118_Handler               0x82ad   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ119_Handler               0x82bd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ120_Handler               0x82cd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ121_Handler               0x82dd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ122_Handler               0x82ed   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ123_Handler               0x82fd   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ124_Handler               0x830d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ125_Handler               0x831d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ126_Handler               0x832d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ127_Handler               0x833d   0x10  Code  Gb  hc32_ll_interrupts.o [4]
+IRQ128_Handler               0xbe45         Code  Wk  startup_hc32f460.o [3]
+IRQ129_Handler               0xbe49         Code  Wk  startup_hc32f460.o [3]
+IRQ130_Handler               0xbe4d         Code  Wk  startup_hc32f460.o [3]
+IRQ131_Handler               0xbe51         Code  Wk  startup_hc32f460.o [3]
+IRQ132_Handler               0xbe55         Code  Wk  startup_hc32f460.o [3]
+IRQ133_Handler               0xbe59         Code  Wk  startup_hc32f460.o [3]
+IRQ134_Handler               0xbe5d         Code  Wk  startup_hc32f460.o [3]
+IRQ135_Handler               0xbe61         Code  Wk  startup_hc32f460.o [3]
+IRQ136_Handler               0xbe65         Code  Wk  startup_hc32f460.o [3]
+IRQ137_Handler               0xbe69         Code  Wk  startup_hc32f460.o [3]
+IRQ138_Handler               0xbe6d         Code  Wk  startup_hc32f460.o [3]
+IRQ139_Handler               0xbe71         Code  Wk  startup_hc32f460.o [3]
+IRQ140_Handler               0xbe75         Code  Wk  startup_hc32f460.o [3]
+IRQ141_Handler               0xbe79         Code  Wk  startup_hc32f460.o [3]
+IRQ142_Handler               0xbe7d         Code  Wk  startup_hc32f460.o [3]
+IRQ143_Handler               0xbe81         Code  Wk  startup_hc32f460.o [3]
+JumpAddr                0x1fff'8e3c    0x4  Data  Lc  main.o [5]
+JumpToApp               0x1fff'8e40    0x4  Data  Lc  main.o [5]
+LL_PERIPH_WE                 0x5579   0x3e  Code  Gb  hc32_ll.o [4]
+LL_PERIPH_WP                 0x55b7   0x3e  Code  Gb  hc32_ll.o [4]
+MemManage_Handler            0xbe2d         Code  Wk  startup_hc32f460.o [3]
+NMI_Handler                  0xbe25         Code  Wk  startup_hc32f460.o [3]
+OLED_Test                    0x5c53  0x172  Code  Gb  OLED.o [5]
+OLED_Write_CMD               0x58d5   0x54  Code  Gb  OLED.o [5]
+OLED_Write_Data              0x5929   0x54  Code  Gb  OLED.o [5]
+PWC_FCG0_REG_Lock            0x552d    0x8  Code  Lc  hc32_ll.o [4]
+PWC_FCG0_REG_Unlock          0x5535    0x8  Code  Lc  hc32_ll.o [4]
+PWC_HighPerformanceToHighSpeed
+                             0x54a3   0x36  Code  Gb  hc32_ll_pwc.o [4]
+PWC_HighSpeedToHighPerformance
+                             0x5469   0x3a  Code  Gb  hc32_ll_pwc.o [4]
+PWC_REG_Lock                 0x5515    0xe  Code  Lc  hc32_ll.o [4]
+PWC_REG_Unlock               0x5523    0xa  Code  Lc  hc32_ll.o [4]
+PendSV_Handler               0xbe41         Code  Wk  startup_hc32f460.o [3]
+RX_DMA_TC_IrqCallback        0x27c3   0x34  Code  Lc  com.o [5]
+Region$$Table$$Base          0xbab4          --   Gb  - Linker created -
+Region$$Table$$Limit         0xbad8          --   Gb  - Linker created -
+Reset_Handler                0xb87d         Code  Wk  startup_hc32f460.o [3]
+SPI_Cmd                      0x9871   0x84  Code  Gb  hc32_ll_spi.o [4]
+SPI_DeInit                   0x97ed   0x46  Code  Gb  hc32_ll_spi.o [4]
+SPI_DelayStructInit          0x9a93   0x1c  Code  Gb  hc32_ll_spi.o [4]
+SPI_DelayTimeConfig          0x98f5  0x19e  Code  Gb  hc32_ll_spi.o [4]
+SPI_Init                     0x9579  0x274  Code  Gb  hc32_ll_spi.o [4]
+SPI_Receive                  0x9b11   0x2e  Code  Gb  hc32_ll_spi.o [4]
+SPI_StructInit               0x9833   0x3e  Code  Gb  hc32_ll_spi.o [4]
+SPI_Trans                    0x9ac5   0x4c  Code  Gb  hc32_ll_spi.o [4]
+SPI_Tx                       0x94bf   0xba  Code  Lc  hc32_ll_spi.o [4]
+SPI_TxRx                     0x930b  0x1b4  Code  Lc  hc32_ll_spi.o [4]
+SPI_WaitStatus               0x92e9   0x22  Code  Lc  hc32_ll_spi.o [4]
+SRAM_Init                    0x4f81    0xc  Code  Gb  hc32_ll_sram.o [4]
+SRAM_REG_Lock                0x553d    0xe  Code  Lc  hc32_ll.o [4]
+SRAM_REG_Unlock              0x554b    0xe  Code  Lc  hc32_ll.o [4]
+SRAM_SetWaitCycle            0x4f8d   0x9c  Code  Gb  hc32_ll_sram.o [4]
+SVC_Handler                  0xbe39         Code  Wk  startup_hc32f460.o [3]
+SetSysClockDiv               0x46f5  0x2e8  Code  Lc  hc32_ll_clk.o [4]
+SetSysClockSrc               0x45fb   0xfa  Code  Lc  hc32_ll_clk.o [4]
+SmartCard_CalculateBrr       0x69ef  0x248  Code  Lc  hc32_ll_usart.o [4]
+SysTick_Config               0x2ba9   0x30  Code  Lc  hc32_ll_utility.o [4]
+SysTick_DeInit               0x2333   0x1a  Code  Gb  main.o [5]
+SysTick_Delay                0x1fd1   0x44  Code  Wk  hc32_ll_utility.o [4]
+SysTick_GetTick              0x301d    0xc  Code  Wk  hc32_ll_utility.o [4]
+SysTick_Handler              0x2327    0xc  Code  Gb  main.o [5]
+SysTick_IncTick              0x45b1   0x18  Code  Wk  hc32_ll_utility.o [4]
+SysTick_Init                 0x55f5   0x50  Code  Wk  hc32_ll_utility.o [4]
+SystemCoreClock         0x1fff'8e54    0x4  Data  Gb  system_hc32f460.o [3]
+SystemCoreClockUpdate        0x9217   0xac  Code  Gb  system_hc32f460.o [3]
+SystemInit                   0x9209    0xe  Code  Gb  system_hc32f460.o [3]
+TMR0_Config                  0x290d   0x6e  Code  Lc  com.o [5]
+TMR0_HWClearCondCmd          0x84d9   0x72  Code  Gb  hc32_ll_tmr0.o [4]
+TMR0_HWStartCondCmd          0x8467   0x72  Code  Gb  hc32_ll_tmr0.o [4]
+TMR0_Init                    0x8351  0x116  Code  Gb  hc32_ll_tmr0.o [4]
+UART_CalculateBrr            0x65c7  0x252  Code  Lc  hc32_ll_usart.o [4]
+USART_ClearStatus            0x6fc1   0x6e  Code  Gb  hc32_ll_usart.o [4]
+USART_DeInit                 0x6e89   0x48  Code  Gb  hc32_ll_usart.o [4]
+USART_FuncCmd                0x6ed5   0x86  Code  Gb  hc32_ll_usart.o [4]
+USART_GetBusClockFreq        0x6c37   0x16  Code  Lc  hc32_ll_usart.o [4]
+USART_GetStatus              0x6f5b   0x5e  Code  Gb  hc32_ll_usart.o [4]
+USART_GetUsartClockFreq
+                             0x6c4d   0x4a  Code  Lc  hc32_ll_usart.o [4]
+USART_ReadData               0x7051   0x34  Code  Gb  hc32_ll_usart.o [4]
+USART_RxError_IrqCallback
+                             0x29f9   0x14  Code  Lc  com.o [5]
+USART_RxTimeout_IrqCallback
+                             0x29bb   0x3e  Code  Lc  com.o [5]
+USART_SetBaudrate            0x70d1   0xd0  Code  Gb  hc32_ll_usart.o [4]
+USART_StopTimeoutTimer       0x297b   0x40  Code  Lc  com.o [5]
+USART_UART_Init              0x6cd9  0x19c  Code  Gb  hc32_ll_usart.o [4]
+USART_UART_StructInit        0x6c97   0x42  Code  Gb  hc32_ll_usart.o [4]
+USART_UART_Trans             0x71a5   0xc4  Code  Gb  hc32_ll_usart.o [4]
+USART_WaitStatus             0x6539   0x8e  Code  Lc  hc32_ll_usart.o [4]
+USART_WriteData              0x7085   0x4c  Code  Gb  hc32_ll_usart.o [4]
+UsageFault_Handler           0xbe35         Code  Wk  startup_hc32f460.o [3]
+W25QXX_DeInit                0x56d7   0x1e  Code  Gb  W25Q128.o [2]
+W25QXX_Init                  0x56b9   0x1e  Code  Gb  W25Q128.o [2]
+W25QXX_Rd                    0x5645   0x74  Code  Lc  W25Q128.o [2]
+W25QXX_ReadData              0x56f5   0x32  Code  Gb  W25Q128.o [2]
+_GetstrSmallNoMb             0x3525   0xec  Code  Lc  xscanfsmall_nomb.o [7]
+_LC                          0x3895    0x6  Code  Lc  xprintflarge_nomb.o [7]
+_LitobLargeNoMb              0x43a7  0x114  Code  Lc  xprintflarge_nomb.o [7]
+_LocaleC_isspace             0x91d9   0x14  Code  Gb  xlocale_c.o [7]
+_LocaleC_isupper             0x91cd    0x2  Code  Gb  xlocale_c.o [7]
+_LocaleC_tolower             0x91ed    0xc  Code  Gb  xlocale_c.o [7]
+_Locale_lconv           0x1fff'8048   0x38  Data  Lc  xlocale_c.o [7]
+_PrintfLargeNoMb             0x389b  0xb06  Code  Gb  xprintflarge_nomb.o [7]
+_PutcharsLargeNoMb           0x4515   0x2e  Code  Lc  xprintflarge_nomb.o [7]
+_SProut                      0x22e7    0xa  Code  Gb  xsprout.o [7]
+_SScin                       0x2223   0x1e  Code  Gb  xsscin.o [7]
+_ScanfSmallNoMb              0x3043  0x4da  Code  Gb  xscanfsmall_nomb.o [7]
+_Ttotm_ts               0x1fff'8dbc   0x2c  Data  Lc  xttotm64.o [7]
+_Tzoff                       0x3891    0x4  Code  Gb  xTzoff_nop.o [7]
+_UngetN                      0x3029   0x1a  Code  Lc  xscanfsmall_nomb.o [7]
+__NVIC_ClearPendingIRQ       0x2769   0x20  Code  Lc  com.o [5]
+__NVIC_DisableIRQ            0x2741   0x28  Code  Lc  com.o [5]
+__NVIC_EnableIRQ             0x2721   0x20  Code  Lc  com.o [5]
+__NVIC_SetPriority           0x2789   0x30  Code  Lc  com.o [5]
+__NVIC_SetPriority           0x2b7d   0x2c  Code  Lc  hc32_ll_utility.o [4]
+__NVIC_SystemReset           0x2309   0x1e  Code  Lc  main.o [5]
+__aeabi_d2f                  0x9b89         Code  Gb  DblToFlt.o [8]
+__aeabi_d2iz                 0x8901         Code  Gb  DblToS32.o [8]
+__aeabi_d2uiz                0x8f3d         Code  Gb  DblToU32.o [8]
+__aeabi_ddiv                 0x8cf5         Code  Gb  DblDiv.o [8]
+__aeabi_dmul                 0x8755         Code  Gb  DblMul.o [8]
+__aeabi_dsub                 0x90e9         Code  Gb  DblAddSub.o [8]
+__aeabi_f2d                  0x870d         Code  Gb  FltToDbl.o [8]
+__aeabi_fadd                 0x9bf1         Code  Gb  FltAddSub.o [8]
+__aeabi_fdiv                 0x85f5         Code  Gb  FltDiv.o [8]
+__aeabi_ldiv0                0x9d59         Code  Gb  I64DivZer.o [9]
+__aeabi_ldivmod              0x8a09         Code  Gb  I64DivMod.o [9]
+__aeabi_memcpy               0x2241         Code  Gb  ABImemcpy.o [9]
+__aeabi_memcpy4              0x2261         Code  Gb  ABImemcpy.o [9]
+__aeabi_memcpy8              0x2261         Code  Gb  ABImemcpy.o [9]
+__aeabi_memset               0x2015         Code  Gb  ABImemset.o [9]
+__aeabi_ui2d                 0x8f61         Code  Gb  U32ToDbl.o [8]
+__aeabi_ui2f                 0x85d9         Code  Gb  U32ToFlt.o [8]
+__aeabi_ul2d                 0x9b41         Code  Gb  U64ToDbl.o [8]
+__aeabi_uldivmod             0x8a4d         Code  Gb  I64DivMod.o [9]
+__cmain                      0xbb59         Code  Gb  cmain.o [9]
+__exit                       0x9d5d   0x14  Code  Gb  exit.o [10]
+__iar_Daysto64               0x369d   0x66  Code  Gb  xDaysTo64.o [7]
+__iar_Fail_s                 0x89c9   0x1c  Code  Gb  xfail_s.o [7]
+__iar_Isdst64                0x8c7d    0x6  Code  Gb  xisdst_nop64.o [7]
+__iar_Memchr                 0x8581         Code  Gb  memchr.o [9]
+__iar_Memset                 0x2015         Code  Gb  ABImemset.o [9]
+__iar_Memset_word            0x201d         Code  Gb  ABImemset.o [9]
+__iar_MonTab64               0x3669   0x34  Code  Gb  xDaysTo64.o [7]
+__iar_Stolx                  0x8937   0x8c  Code  Gb  iar_Stolx.o [7]
+__iar_Stoul                  0x2daf    0x2  Code  Gb  iar_Stoulx.o [7]
+__iar_Stoulx                 0x2c6d  0x13c  Code  Gb  iar_Stoulx.o [7]
+__iar_Strchr                 0x2dc5         Code  Gb  strchr.o [9]
+__iar_Ttotm64                0x3735  0x15c  Code  Gb  xttotm64.o [7]
+__iar_copy_init3             0x207b   0x2a  Code  Gb  copy_init3.o [9]
+__iar_data_init3             0xba21   0x28  Code  Gb  data_init.o [9]
+__iar_frexp                  0x8c91         Code  Gb  frexp.o [8]
+__iar_frexp64                0x8c85         Code  Gb  frexp.o [8]
+__iar_frexpl                 0x8c91         Code  Gb  frexp.o [8]
+__iar_globLocale        0x1fff'8000   0x48  Data  Lc  xlocale_c.o [7]
+__iar_global_Locale          0x91f9    0x4  Code  Gb  xlocale_c.o [7]
+__iar_program_start          0xbbc5         Code  Gb  cstartup_M.o [9]
+__iar_zero_init3             0xb9c1   0x38  Code  Gb  zero_init3.o [9]
+__low_level_init             0xbb77    0x4  Code  Gb  low_level_init.o [7]
+__mktime64                   0x20cd   0xe0  Code  Gb  mktime64.o [7]
+__vector_table                  0x0         Data  Gb  startup_hc32f460.o [3]
+_call_main                   0xbb65         Code  Gb  cmain.o [9]
+_exit                        0xbb81         Code  Gb  cexit.o [9]
+abort                        0x9d53    0x6  Code  Gb  abort.o [7]
+atoi                         0x2db1    0x2  Code  Gb  iar_Stoulx.o [7]
+clear_screen                 0x5ac5   0x88  Code  Gb  OLED.o [5]
+digits                       0xb854   0x28  Data  Lc  iar_Stoulx.o [7]
+display_128x64               0x5b4d   0x76  Code  Gb  OLED.o [5]
+drv_OLED_Init                0x597d  0x120  Code  Gb  OLED.o [5]
+drv_WatchDog_Init            0x25e1   0x26  Code  Gb  main.o [5]
+drv_mcu_OLED_IIC_Init        0x5895   0x40  Code  Gb  OLED.o [5]
+exit                         0xbb7b    0x4  Code  Gb  exit.o [7]
+frexp                        0x8c85         Code  Gb  frexp.o [8]
+frexpl                       0x8c85         Code  Gb  frexp.o [8]
+func_4G_Module_Connect_HTTP
+                              0xe01  0x610  Code  Gb  4G_EC200U.o [1]
+func_4G_Up_Upgrade_Result
+                             0x1461  0x57a  Code  Gb  4G_EC200U.o [1]
+func_Array_Find_Str           0x421   0x5e  Code  Gb  4G_EC200U.o [1]
+func_Board_Power_And_Control_GPIO_Init
+                             0x24d1  0x110  Code  Gb  main.o [5]
+func_Device_Starting_View_Show
+                             0x2e8d   0x62  Code  Gb  Display.o [5]
+func_Device_UpgradeResult_View_Show
+                             0x2fb5   0x66  Code  Gb  Display.o [5]
+func_Device_Upgrade_View_Show
+                             0x2eef   0xb8  Code  Gb  Display.o [5]
+func_Display_128x64          0x5bc3   0x90  Code  Gb  OLED.o [5]
+func_Get_UpgradeCheck_CMD
+                              0x4cd   0x9a  Code  Gb  4G_EC200U.o [1]
+func_Get_UpgradeResult_CMD
+                              0x567  0x11e  Code  Gb  4G_EC200U.o [1]
+func_System_Soft_Reset       0x2625    0xe  Code  Gb  main.o [5]
+func_WatchDog_Refresh        0x2607   0x1e  Code  Gb  main.o [5]
+func_display_string          0x5dc5  0x760  Code  Gb  OLED.o [5]
+gE_4G_Module_Connect_HTTP_CMD
+                        0x1fff'8e50    0x1  Data  Gb  4G_EC200U.o [1]
+gE_4G_Module_Init_CMD   0x1fff'80a0    0x1  Data  Gb  4G_EC200U.o [1]
+g_sSKLogo                    0xaf44  0x400  Data  Gb  Font.o [5]
+g_sint8_Font_16x10_12864
+                             0x9d70  0x7e4  Data  Gb  Font.o [5]
+g_sint8_Font_16x12_12864
+                             0xa554  0x528  Data  Gb  Font.o [5]
+g_sint8_Font_6x12_AsciiDot
+                             0xaa7c  0x4c8  Data  Gb  Font.o [5]
+gs_DevicePara           0x1fff'8bec  0x108  Data  Gb  W25Q128.o [2]
+guc_NewVersion          0x1fff'8e1c   0x10  Data  Gb  4G_EC200U.o [1]
+guc_OLED_Buf            0x1fff'84c0  0x400  Data  Gb  OLED.o [5]
+guc_StartDateTime       0x1fff'8e08   0x14  Data  Gb  4G_EC200U.o [1]
+guc_URLArr              0x1fff'8cf4   0xc8  Data  Gb  4G_EC200U.o [1]
+gul_IAP_Upgrade_Current_Size
+                        0x1fff'8e44    0x4  Data  Gb  main.o [5]
+gul_IAP_Upgrade_Total_Size
+                        0x1fff'809c    0x4  Data  Gb  main.o [5]
+gul_UpdateFileSize      0x1fff'8e2c    0x4  Data  Gb  4G_EC200U.o [1]
+gus_URLArrLen           0x1fff'8e4c    0x2  Data  Gb  4G_EC200U.o [1]
+isspace                      0x8559   0x14  Code  Gb  isspace.o [7]
+lcd_address                  0x5a9d   0x28  Code  Gb  OLED.o [5]
+lmos                         0x3704   0x18  Data  Lc  xDaysTo64.o [7]
+localeconv                   0x91fd    0x4  Code  Gb  xlocale_c.o [7]
+m_RecvFlag              0x1fff'8e52    0x1  Data  Gb  com.o [5]
+m_apfnIrqHandler        0x1fff'88c0  0x200  Data  Lc  hc32_ll_interrupts.o [4]
+m_au8RxBuf              0x1fff'80a4  0x41c  Data  Gb  com.o [5]
+m_enRxFrameEnd          0x1fff'8e51    0x1  Data  Lc  com.o [5]
+m_stcW25qxxLL           0x1fff'8080   0x1c  Data  Lc  W25Q128.o [2]
+m_u16RxLen              0x1fff'8e4e    0x2  Data  Gb  com.o [5]
+m_u32TickCount          0x1fff'8e38    0x4  Data  Lc  hc32_ll_utility.o [4]
+m_u32TickStep           0x1fff'8e34    0x4  Data  Lc  hc32_ll_utility.o [4]
+main                         0x2633   0xaa  Code  Gb  main.o [5]
+memchr                       0x8581         Code  Gb  memchr.o [9]
+memcmp                        0x281         Code  Gb  memcmp.o [9]
+mktime                       0x20cd   0xe0  Code  Gb  mktime64.o [7]
+mos                          0x371c   0x18  Data  Lc  xDaysTo64.o [7]
+ndigs                        0xb82c   0x28  Data  Lc  iar_Stoulx.o [7]
+scale                        0x44bb   0x46  Code  Lc  xprintflarge_nomb.o [7]
+sec_hand                0x1fff'8e48    0x4  Data  Lc  xfail_s.o [7]
+sprintf                      0x21ad   0x40  Code  Gb  sprintf.o [7]
+sscanf                       0x20a5   0x28  Code  Gb  sscanf.o [7]
+strchr                       0x2dc5         Code  Gb  strchr.o [9]
+strcpy                       0x22f1         Code  Gb  strcpy.o [9]
+strlen                       0x21ed         Code  Gb  strlen.o [9]
+strstr                       0x2ddb   0x2c  Code  Gb  strstr.o [7]
+strtol                       0x89c3    0x4  Code  Gb  iar_Stolx.o [7]
+strtoul                      0x2dbd    0x2  Code  Gb  iar_Stoulx.o [7]
+tolower                      0x856d   0x14  Code  Gb  tolower.o [7]
+u32ICGValue                   0x400   0x20  Data  Lc  hc32_ll_icg.o [4]
+ucSendBuf               0x1fff'8ac0  0x12c  Data  Gb  4G_EC200U.o [1]
+ulDataStartPosi         0x1fff'8e30    0x4  Data  Gb  4G_EC200U.o [1]
+
+
+[1] = E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\4G_EC200U_1604294460200205261.dir
+[2] = E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\W25Q128_15929202798972533116.dir
+[3] = E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\cmsis_10847856019631765829.dir
+[4] = E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\driver_11944700488488147666.dir
+[5] = E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\source_5634686896477721948.dir
+[6] = E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Obj\ymodem_18394090990685934474.dir
+[7] = dl7M_tlf.a
+[8] = m7M_tl.a
+[9] = rt7M_tl.a
+[10] = shb_l.a
+
+  40'337 bytes of readonly  code memory
+   8'355 bytes of readonly  data memory (+ 32 absolute)
+  11'865 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out</Path>
+            <Output>
+                <Path>E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\List\iap_ymodem_boot.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

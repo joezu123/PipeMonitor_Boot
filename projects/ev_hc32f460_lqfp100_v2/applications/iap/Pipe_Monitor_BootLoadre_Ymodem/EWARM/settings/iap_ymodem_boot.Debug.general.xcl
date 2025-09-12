@@ -1,0 +1,13 @@
+"D:\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"D:\IAR Systems\Embedded Workbench 8.0\arm\bin\armJET.dll" 
+
+"E:\WorkProcess\example\HC32F460_DDL_Rev3.3.0\projects\ev_hc32f460_lqfp100_v2\applications\iap\iap_ymodem_boot\EWARM\output\debug\Exe\iap_ymodem_boot.out" 
+
+--plugin "D:\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--flash_loader "E:\WorkProcess\example\HC32F460_DDL_Rev3.3.0\projects\ev_hc32f460_lqfp100_v2\applications\iap\iap_ymodem_boot\EWARM/config/flashloader/FlashHC32F460xE.board" 
+
+
+
+
