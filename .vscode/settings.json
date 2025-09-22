@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "flash.h": "c"
+        "flash.h": "c",
+        "w25q128.h": "c",
+        "oled.h": "c",
+        "display.h": "c",
+        "main.h": "c",
+        "hc32_ll_fcg.h": "c"
     }
 }

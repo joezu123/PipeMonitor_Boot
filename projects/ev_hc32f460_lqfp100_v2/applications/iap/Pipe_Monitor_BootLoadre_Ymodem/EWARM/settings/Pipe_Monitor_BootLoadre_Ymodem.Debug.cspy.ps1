@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.general.xcl" --backend -f "E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.driver.xcl" 
+& "D:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Myself\WorkProcess\SK\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.general.xcl" --backend -f "D:\Myself\WorkProcess\SK\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.driver.xcl" 
+& "D:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Myself\WorkProcess\SK\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Myself\WorkProcess\SK\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\settings\Pipe_Monitor_BootLoadre_Ymodem.Debug.driver.xcl" 
 }

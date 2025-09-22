@@ -46,7 +46,7 @@ extern "C"
 #ifdef HW_VERSION_V1_1
 #define MODEM_USART_RX_PORT             (GPIO_PORT_A)
 #define MODEM_USART_RX_PIN              (GPIO_PIN_07)
-#define MODEM_USART_RX_FUNC             (GPIO_FUNC_32)  //32->USART1_TX; 33->USART1_RX 
+#define MODEM_USART_RX_FUNC             (GPIO_FUNC_33)  //32->USART1_TX; 33->USART1_RX 
 #else
 #define MODEM_USART_RX_PORT             (GPIO_PORT_C)
 #define MODEM_USART_RX_PIN              (GPIO_PIN_00)
@@ -57,7 +57,7 @@ extern "C"
 #ifdef HW_VERSION_V1_1
 #define MODEM_USART_TX_PORT             (GPIO_PORT_C)
 #define MODEM_USART_TX_PIN              (GPIO_PIN_04)
-#define MODEM_USART_TX_FUNC             (GPIO_FUNC_33)
+#define MODEM_USART_TX_FUNC             (GPIO_FUNC_32)
 #else
 #define MODEM_USART_TX_PORT             (GPIO_PORT_C)
 #define MODEM_USART_TX_PIN              (GPIO_PIN_01)

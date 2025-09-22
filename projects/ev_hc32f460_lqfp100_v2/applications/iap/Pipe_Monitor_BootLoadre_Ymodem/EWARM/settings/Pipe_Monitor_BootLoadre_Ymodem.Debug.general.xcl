@@ -2,11 +2,11 @@
 
 "D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armJET.dll" 
 
-"E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out" 
+"D:\Myself\WorkProcess\SK\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM\output\debug\Exe\iap_ymodem_boot.out" 
 
 --plugin="D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armbat.dll" 
 
---flash_loader="E:\WorkProcess\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM/config/flashloader/FlashHC32F460xE.board" 
+--flash_loader="D:\Myself\WorkProcess\SK\HC32F460_DDL_WorkProcess\projects\ev_hc32f460_lqfp100_v2\applications\iap\Pipe_Monitor_BootLoadre_Ymodem\EWARM/config/flashloader/FlashHC32F460xE.board" 
 
 
 
