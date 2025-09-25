@@ -714,7 +714,7 @@ uint8_t EC200U_4G_Module_Init(void)
                 memset(m_au8RxBuf,0,APP_FRAME_LEN_MAX);
                 
                 ucResult1 = EC200U_4G_Module_Configuration_Init();
-                if(ucResult1 == 0)
+                if(ucResult1 != 2)
                 {
                     i = 3;  //跳出外层循环
                     break;
